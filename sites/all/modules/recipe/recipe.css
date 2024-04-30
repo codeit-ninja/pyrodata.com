@@ -1,0 +1,134 @@
+
+
+
+.recipe-section div.section {
+  margin: 0;
+}
+
+.node-full  .recipe-ingredients {
+margin-left:57px;
+min-height:232px;
+width: 400px;
+border: 2px #ccc solid;
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+padding-left:15px;
+padding-bottom:20px;
+}
+
+.recipe-ingredients .quantity-unit {
+  float: left;
+  width: 72px;
+  text-align:center;
+}
+
+
+ 
+.recipe-error-item {
+  margin-left: 10px;
+  color:red;
+  font-weight:bold;
+}
+.recipe-new-item {
+  margin-left: 10px;
+  color:#2E8B57;
+  font-weight:bold;
+}
+.recipe-matched-item {
+  margin-left: 10px;
+}
+
+
+.recipe_index_list {
+  float: left;
+  width: 58%;
+}
+.recipe_index_recent {
+  float: left;
+  width: 40%;
+}
+
+
+.recipe-import-text {
+  font-family: monospace;
+}
+.section .recipe-ingredients .title {
+padding-bottom:20px;
+}
+.node-teaser .recipe-ingredients .h2 {
+padding-bottom:0;
+}
+
+div.recipe-summary {
+float: right;
+width: 11em;
+margin: 0;
+padding: 0;
+position: absolute;
+margin-left: 15em;
+margin-top: -0.65em;
+font-size: 1.0em;
+border: #000000;
+border-width: 1px;
+}
+
+#edit-custom-yield {
+width:50px;
+text-align:center;
+
+}
+.node-teaser .content .title {
+display:none;
+}
+
+.block-recipe .recipe-summary {
+  float:none;
+  width:100%;
+}
+.recipe-summary table {
+  border-collapse: collapse;
+}
+
+.recipe-summary th {
+  background: #E0E0E0;
+  color: black;
+  font-weight: bold;
+  width: 4em;
+}
+.recipe-summary td {
+  background: white;
+  color: black;
+}
+.recipe-summary .form-item {
+  display: inline;
+}
+.summary-data, .summary-title {
+  width: 10em;
+}
+.recipe-summary p {
+  margin:0; padding:0;
+}
+.recipe-summary h2 {
+  margin:0; padding:0;
+}
+.recipe-summary .form-submit {
+  font-size: 75%;
+  width: 6em;
+  float:right;
+}
+#recipe_custom_yield fieldset {
+  border: none;
+}
+#recipe_custom_yield fieldset .form-item {
+  display: inline;
+}
+.field-name-field-video {
+
+margin-top: -16em;
+margin-left: 50%;
+}
+.field-name-field-video .field-items .odd {
+margin-top: -258px;
+margin-left: 460px;
+}

@@ -1,0 +1,574 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/responsive.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+.compositions .node-teaser {
+margin-bottom:0px;
+border-bottom:0;
+background:#FCFCFC;
+padding-top:0;
+font-size:14px;
+line-height:1.5;
+min-height:14em;
+width:27.5em;
+border: 1px #ddd solid;
+-moz-border-radius: 15px;
+border-radius: 15px;
+-moz-border-radius-bottomright: 5px 5px;
+border-bottom-right-radius: 5px 5px;
+-moz-border-radius-bottomleft: 5px 5px;
+border-bottom-left-radius: 5px 5px;
+-webkit-box-shadow: 0 8px 6px -6px #CCC;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #CCC
+}
+.compositions .recipe-ingredients {
+
+border:none;
+-webkit-box-shadow:none;
+margin:0;
+min-height:0;
+padding-top:1.2em;
+padding-bottom:1.2em;
+padding-left:1.5em;
+padding-right:1em;
+-moz-box-shadow:none;
+box-shadow:none;
+}
+.compositions col-1{
+
+}
+
+td.compositions {
+width: 27.5em;
+padding-left: 3.5%;
+padding-right: 3.5%;
+padding-bottom: 4em
+}
+.compositions h2 {
+padding:0;
+color:#666;
+background:#EEEEEE;
+padding-left:5%;
+-moz-border-radius-topright: 10px 10px;
+border-top-right-radius: 10px 10px;
+-moz-border-radius-topleft: 10px 10px;
+border-top-left-radius: 10px 10px;
+}
+.compositions h2 a {
+color:#666;
+}
+.compositions .content {
+
+}
+.view-id-composition .views-view-grid {
+width:100%;
+}
+.view-composition .view-header p {
+font-size:20px;
+padding:0;
+-webkit-margin-before:0;
+-webkit-margin-after:0;
+}
+.field-name-field-symbol {
+padding-bottom:5px;
+}
+.field-name-field-symbol .field-label {
+float:left;
+}
+
+
+.field-name-field-synonyms {
+padding-bottom:5px;
+}
+
+.field-name-field-description,
+.field-name-field-sources,
+.field-name-field-synonyms {
+width:75%;
+}
+.field-name-field-sources  .field-label,
+.field-name-field-hazard-descr .field-label,
+.field-name-field-description .field-label,
+.field-name-field-synonyms .field-label,
+.field-name-field-source .field-label,
+.field-name-field-msds .field-label {
+float:left;
+}
+
+.node-ingredient .field-item p {
+margin:0;
+}
+.node-ingredient .field-label-above {
+padding-top:0.4em;
+padding-bottom:0.4em;
+}
+
+.node-ingredient .submitted {
+display:none;
+}
+.node-ingredient .field-name-field-symbol {
+margin-top:-220px;
+}
+.field-name-field-indegriedient-image {
+vertical-align:middle;
+width:220px;
+height:220px;
+position:relative;
+margin-left:76%;
+margin-top:-20px;
+border: 2px #ccc solid;
+padding: 5px;
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.view-composition .node-teaser .field-name-field-video .field-items {
+
+
+}
+.view-composition .node-teaser .field-name-field-video {
+
+margin-top: -1.9em;
+margin-left: 25em;
+
+}
+.view-composition .node-teaser .field-name-field-video .odd {
+display:none;
+}
+.view-display-id-entity_view_1 .field-name-field-video {
+margin-top: -1.9em;
+margin-left: 25em;
+
+}
+.view-display-id-entity_view_1 .field-name-field-video .odd{
+display:none;
+}
+.form-item-recipe-yield-unit {
+display:none;
+}
+#recipe-node-form > div > div.form-item.form-type-textfield.form-item-recipe-source {
+display:none;
+}
+
+#edit-submit {
+margin-right: 2.3em;
+margin-top: 1px;
+}
+.node-teaser .recipe-ingredients .quantity-unit {
+width:50px;
+float:left;
+}
+.node-full .recipe-ingredients .section {
+padding-left:5px !important; 
+}
+
+.node-teaser .recipe-ingredients h2 {
+display:none;
+}
+.view-id-composition_enity .view-content {
+padding-left:4%;
+padding-right:5%;
+}
+.view-id-composition_enity .view-content .views-view-grid {
+width:100%;
+}
+.view-id-chemical_list .view-footer .view-header {
+padding:0.2em;
+padding-left:0.75em;
+-webkit-box-shadow: -1px 1px 2px 0 rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 1px 2px 0 rgba(0,0,0,0.2);
+box-shadow: -1px 1px 2px 0 rgba(0,0,0,0.2);
+
+
+}
+.view-id-chemical_list .view-footer .view-header a {
+font-size:1.5em;
+padding:0.2em;
+color:#999;
+font-weight:bold;
+}
+.view-id-chemical_list .view-footer .view-header a:hover {
+text-decoration:none;
+}
+.alphabet {
+padding-top:1em;
+padding-bottom:1em;
+font-size: 1.5em;
+}
+.alphabet p {
+padding-left:0.7em;
+}
+
+.node-recipe,
+.node-ingredient,
+.view-id-compositions_tab,
+.view-id-supply_page  {
+padding-top:1em;
+}
+.node-recipe .recipe-ingredients {
+padding-left:1em;
+padding-right:0.5em;
+padding-bottom:1em;
+width:43%;
+min-height:15em;
+border: 1px #ddd solid;
+background: #FDFDFD;
+-moz-border-radius: 10px;
+border-radius: 10px;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+#page-title {
+padding-top:1em;
+padding-left:1em;
+letter-spacing: 0.1em;
+color:#333333;
+text-shadow: 4px -3px 7px rgba(162, 162, 150, 0.6);
+}
+.node-teaser .recipe-ingredients {
+border:none;
+box-shadow:none;
+-moz-box-shadow:none;
+-webkit-box-shadow:none;
+min-height:0;
+width:auto;
+border-radius:0;
+}
+.recipe-ingredients h2 {
+padding-left:1.5em;
+}
+
+.field-name-field-table-check {
+margin-top: -2.1em;
+margin-left: 23em;
+}
+.hazard-desc {
+width: 95px;
+text-align: center;
+}
+.field-name-field-hazards .field-item {
+float:left;
+padding-right:4em;
+padding-top:1em;
+}
+.view-id-composition_enity {
+cleat:both;
+padding-top:1.5em;
+}
+.chemical_relevant {
+font-weight:bold;
+font-size:1.2em;
+color: #333333;
+text-shadow: 4px -3px 7px rgba(162, 162, 150, 0.6);
+}
+.node-ingredient .field-type-text-with-summary img {
+padding-left:20px;
+}
+.field-name-field-msds {
+padding-top:1em !important;
+clear:both;
+}
+#source_link {
+color:#ccc;
+}
+.chemical_relevant a {
+color: #333333;
+}
+.view-id-compositions_tab .field-name-field-video,
+.view-id-comp_filter_block .field-name-field-video,
+.view-id-comp_stars .field-name-field-video,
+.view-id-comp_burst .field-name-field-video,
+.view-id-flash_powder .field-name-field-video,
+.view-id-comp_rocket .field-name-field-video,
+.view-id-comp_fountain  .field-name-field-video,
+.view-id-comp_whistle .field-name-field-video,
+.view-id-comp_other .field-name-field-video,
+.view-id-compositions .field-name-field-video{
+margin-top: -2em;
+margin-left: 90%;
+}
+
+.view-id-chemical_node_tabs td.compositions {
+width:0;
+padding:0;
+}
+
+.view-id-chemical_node_tabs .views-view-grid {
+margin-top:0;
+width:100%;
+}
+.view-id-compositions_tab .view-header {
+padding-bottom:30px;
+}
+.chemical_tabs,
+.inside_content_tab_menu a{
+
+}
+.chemical_tabs a,
+.inside_content_tab_menu a {
+float:left;
+color:#333;
+font-weight:bold;
+padding:5px;
+padding-left:10px;
+padding-right:10px;
+display:block;
+border:1px solid #ccc;
+background-color:#eee;
+-moz-border-radius-topleft: 10px;
+-webkit-border-top-left-radius: 10px;
+ border-top-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.chemical_tabs a:hover,
+.inside_content_tab_menu a:hover {
+text-decoration:none;
+background-color:#ccc;
+}
+.chemical_tabs p,
+.inside_content_tab_menu p {
+float:left;
+color:#333;
+font-weight:bold;
+padding:5px;
+padding-left:10px;
+padding-right:10px;
+display:block;
+border:1px solid #ccc;
+border-bottom:none;
+background-color:#fff;
+-moz-border-radius-topleft: 10px;
+-webkit-border-top-left-radius: 10px;
+ border-top-left-radius: 10px;
+-moz-border-radius-topright: 10px;
+-webkit-border-top-right-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+.view-id-chemical_node_tabs {
+padding-bottom:1em;
+}
+
+
+#edit-field-source-value {
+height:245px;
+}
+.view-id-comp_burst .views-widget-filter-title {
+clear:both;
+}
+#edit-filter-color-flash {
+height:200px;
+}
+#edit-rocket-title-wrapper {
+clear:both;
+}
+.view-id-comp_fountain #edit-tid,
+.view-id-comp_other #edit-tid {
+height:200px;
+}
+#edit-advanced-filt,
+#edit-advanced-filt1 {
+width:228px;
+}
+.view-display-id-advanced_filter #edit-tid-1-op,
+.view-display-id-advanced_filter #edit-tid-3-op,
+.view-display-id-advanced_filter #edit-tid-4-op,
+.view-display-id-advanced_filter #edit-tid-5-op {
+width:256px;
+}
+.view-display-id-advanced_filter #edit-field-source-value {
+height:230px;
+}
+
+.view-display-id-advanced_filter #edit-field-video-video-url-wrapper {
+clear:both;
+}
+.view-display-id-advanced_filter #edit-submit-comp-filter-block {
+margin-left:15em;
+}
+.view-display-id-advanced_filter #edit-title-op,
+.view-display-id-advanced_filter #edit-title,
+.view-display-id-advanced_filter #edit-description-2-op,
+.view-display-id-advanced_filter #edit-description-2,
+.view-display-id-advanced_filter #edit-field-source-value-1-op,
+.view-display-id-advanced_filter #edit-field-source-value-1 {
+width:258px;
+}
+.alpha {
+float:left;
+}
+.view-id-chemical_list .alphabet a {
+padding-left:0.5em;
+}
+.chemi-table {
+padding-right:1.5em;
+padding-left:1.5em;
+padding-bottom:2em;
+}
+.chemical_list_hazards {
+padding-left:5px;
+}
+.chemical_list_hazards img {
+width:25px;
+height:25px;
+opacity:0.25;
+padding-left:1px;
+}
+.chemical_list_hazards p {
+display:none;
+}
+.chemical_list_img img,
+.view-id-chemical_binder img{
+
+-webkit-box-shadow: 0px -1px 6px 0px rgba(9, 50, 50, 0.38);
+-moz-box-shadow:    0px -1px 6px 0px rgba(9, 50, 50, 0.38);
+box-shadow:         0px -1px 6px 0px rgba(9, 50, 50, 0.38);
+}
+
+.view-id-chemical_list .views-field-title,
+.view-id-chemical_binder .views-field-title {
+height:2.5em;
+border:1px solid #ccc;
+border-bottom:none;
+border-top:none;
+padding-left:5px;
+}
+.view-id-chemical_list .view-id-count_recepie_by_ingred .view-content,
+.view-id-chemical_list .view-id-count_recepie_by_ingred .item-list,
+.view-id-chemical_binder .view-id-count_recepie_by_ingred .view-content,
+.view-id-chemical_binder .view-id-count_recepie_by_ingred .item-list {
+display:none;
+}
+.view-id-count_recepie_by_ingred {
+border:1px solid #ccc;
+color:#666;
+width:40px;
+background-color:#ddd;
+text-align:center;
+margin-left: 139px;
+margin-top: -24px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomright: 10px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+.view-id-chemical_list .views-field-view,
+.view-id-chemical_binder .views-field-view{
+border:1px solid #ccc;
+border-top:none;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-left-radius: 5x;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.views-field-field-hazards {
+margin-top:-7px;
+}
+.views-field-field-indegriedient-image {
+border:1px solid #ccc;
+border-bottom:none;
+padding-left:5px;
+padding-top:5px;
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+border-top-left-radius: 5x;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+border-top-right-radius: 5x;
+}
+.view-id-chemical_list .views-field-title a,
+.view-id-chemical_binder .views-field-title a{
+color:#333;
+font-weight:bold;
+font-size: 0.94em;
+}
+.chemical_tab_link {
+padding:10px;
+}
+.outside_tab {
+clear:both;
+padding-bottom:50px;
+}
+.view-id-comp_stars .view-header,
+.view-id-comp_other .view-header {
+padding-top:20px;
+}
+.view-id-count_recepie_by_ingred .view-header {
+padding:0 !important;
+-webkit-box-shadow:none !important;
+-moz-box-shadow:none !important;
+box-shadow:none !important;
+
+}
+.node-definitions .field-name-field-definition-img {
+float:right;
+}
+.node-definitions .field-name-field-definition-img img {
+-webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 0px 7px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 0px 7px 0px rgba(50, 50, 50, 0.5);
+}
+.field-name-field-definition-img {
+padding-left:10px;
+}
+.field-name-field-definition-img .field-items {
+border: 1px solid #ccc;
+padding: 5px;
+padding-bottom:0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5x;
+
+}
+.node-definitions .field-name-body {
+padding-top:20px;
+padding-left:20px;
+}
+.node-definitions .field-name-body p {
+padding-right:10px;
+}
+.abbr {
+display:none;
+}
+#block-block-4 {
+	border: 1px solid #FF0000;
+}
+#block-block-4 a {
+	color:#333;
+	font-size: 0.9em;
+}
+#UK {
+	font-weight:bold;
+}
